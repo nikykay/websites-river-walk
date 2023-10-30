@@ -1,0 +1,48 @@
+.make-memories {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  font: $proxima-font;
+  height: rem-calc(524);
+
+  .memories-title-1 {
+    margin-top: rem-calc(55);
+    margin-left: rem-calc(-30);
+  }
+
+  .memories-title-2{
+    margin-top: rem-calc(-70);
+  }
+
+  .for-flex {
+    display: flex;
+  }
+
+  .content-box {
+    padding-left: rem-calc(180);
+
+    .memories-content {
+      font-size: rem-calc(14);
+      padding-right: rem-calc(361);
+    }
+  }
+
+  .image-box {
+    width: 100%;
+    img {
+      margin-top: rem-calc(40);
+      margin-left: rem-calc(-185);
+    }
+  }
+
+  .button {
+    padding: 0;
+    background-color: transparent;
+    color: $main-color;
+    font-size: rem-calc(15);
+    text-decoration: underline;
+    text-underline-offset: rem-calc(8);
+    float: right;
+
+  }
+}

@@ -1,0 +1,82 @@
+.header-cpt-section {
+  background-color: $main-color;
+  min-height: rem-calc(165);
+  display: flex;
+  align-items: center;
+  font-family: $proxima-font;
+  font-size: rem-calc(19);
+  color: $white;
+  padding: 0 rem-calc(100);
+  @include breakpoint(small down) {
+    text-align: center;
+    height: unset;
+    min-height: rem-calc(165);
+    padding: 0;
+  }
+
+  .header-cpt-content-box{
+    display: flex;
+    align-items: center;
+    background-color: $bg-opacity;
+    color: $white;
+    padding: rem-calc(10) 0;
+
+    @include breakpoint(medium down) {
+      flex-direction: column;
+    }
+
+    @include breakpoint(small down) {
+      display: unset;
+    }
+  }
+
+  //.header-cpt-content-box:first-child {
+  //  background-color: $bg-opacity-2;
+  //}
+  //.header-cpt-content-box:last-child {
+  //  background-color: transparent;
+  //}
+
+    .image-box {
+      margin-left: rem-calc(10);
+
+      @include breakpoint(small down) {
+        margin-top: rem-calc(20);
+      }
+    }
+
+    img {
+      @include breakpoint(small down) {
+        width: 100%;
+    }
+  }
+
+
+  .header-cpt-content {
+    margin-left: rem-calc(10);
+    margin-top: rem-calc(-15);
+
+    @include breakpoint(xxxlarge) {
+      margin-top: unset;
+    }
+
+    @include breakpoint(medium down) {
+      margin-top: unset;
+      margin-left: unset;
+      text-align: center;
+    }
+
+    @include breakpoint(small down) {
+      margin-top: unset;
+    }
+
+    h5 {
+      font-family: $garamond-font;
+      font-size: rem-calc(23);
+      font-weight: 700;
+
+      color: $white;
+      margin-top: -20px;
+    }
+  }
+}

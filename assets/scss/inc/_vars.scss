@@ -1,0 +1,41 @@
+// Project variables
+$blue: #2d22b4;
+$cyan: #508088;
+$text-color: #4d4d4d;
+
+$main-color: $cyan;
+$sub-color: $main-color;
+
+$gold: #c7b299;
+$gray: #868a8b;
+$bg-opacity: #7399a0;
+$bg-opacity-2: #688a8b;
+
+$font: 'Open Sans', sans-serif;
+$sub-font: $font;
+$fa: 'Font Awesome 6 Free';
+$fab: 'Font Awesome 6 Brands';
+
+// Font Awesome Vars
+$fa-font-path: "../fonts";
+$fa-font-display: swap;
+
+// Project mixins
+
+
+// Custom fonts
+// Use https://transfonter.org/ service with "Fix vertical metrics" setting
+// to get correct converted web fonts. Use woff2 format. NOT ttf or otf!
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url("../../fonts/ProximaNova-Regular.woff2");
+}
+
+@font-face {
+  font-family: 'A Garamond Pro';
+  src: url("../../fonts/AGaramondPro-Regular.woff2");
+}
+
+$proxima-font: 'Proxima Nova', sans-serif;
+$garamond-font: 'A Garamond Pro', sans-serif;

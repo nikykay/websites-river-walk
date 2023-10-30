@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="57031c15-5537-4678-bf93-3eb63b81fba4" name="testriverwalk" url="https://nikariver1dev.wpengine.com">
+        <fileTransfer rootFolder="/wp-content/themes/foundation_new" accessType="SFTP" host="nikariver1dev.wpengine.com" port="2222" sshConfigId="eea91bf0-47e8-4cae-884d-2673532b5fcb" sshConfig="nikariver1dev-developer@nikariver1dev.wpengine.com:2222 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

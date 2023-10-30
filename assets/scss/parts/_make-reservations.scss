@@ -1,0 +1,23 @@
+.reservations-section {
+  text-align: center;
+  font-family: $proxima-font;
+  padding: rem-calc(30) rem-calc(220);
+
+  @include breakpoint(medium down) {
+    padding: rem-calc(30) rem-calc(50);
+  }
+
+  @include breakpoint(small down) {
+    padding: rem-calc(30) rem-calc(20);
+  }
+
+      h5 {
+        font-weight: 400;
+      }
+
+      .button {
+        font-size: rem-calc(30);
+        padding: 0 rem-calc(5);
+        margin-top: rem-calc(30);
+      }
+}
